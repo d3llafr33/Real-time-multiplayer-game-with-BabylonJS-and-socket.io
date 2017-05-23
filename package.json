@@ -1,0 +1,34 @@
+{
+  "name": "real-Time-multiplayer-game",
+  "version": "0.0.1",
+  "description": "Real-Time Multiplayer Game using BabylonJS, socket.io, NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d3llafr33/Real-time-multiplayer-game-with-BabylonJS-and-socket.io"
+  },
+  "keywords": [
+    "realtime",
+    "game",
+    "BabylonJS",
+    "3D",
+    "Game",
+	"Multiplayer",
+    "socket.io",
+    "NodeJS",
+    "HTML5",
+    "javascript"
+  ],
+   "dependencies": {
+    "express": "4.14.x",
+    "socket.io": "1.4.x"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "Alessio Della Libera",
+  "license": "MIT"
+}

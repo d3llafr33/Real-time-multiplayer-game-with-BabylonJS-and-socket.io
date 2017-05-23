@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Multiplayer Game Using BabylonJs and Socket.io</title>
+	<meta charset="utf-8" />
+    <link href="style/style.css" rel="stylesheet" />
+    <script src="lib/babylon2.4.js"></script>
+    <script src="lib/socket.io-1.4.5.js"></script>
+    <script src="js/utility.js"></script>
+    <script src="js/client.js"></script>
+    <script src="js/scene.js"></script>
+    <!--
+    <script src="http://cdn.babylonjs.com/2-4/babylon.js"></script>
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>    
+    -->    
+</head>
+<body>
+    <section>
+        <section id="score">
+            <p id="playerScore"></p>
+            <p id="enemyScore"></p>
+        </section>
+
+        <section id="gameOver">
+            <p id="gameResult"></p>
+        </section>
+        <button id="play" onclick="initSocket()">Play</button>
+        <canvas id="multiplayerCanvas" width="200" height="200"></canvas>
+    </section>
+</body>
+</html>
+
+<script>
+    document.getElementById("playerScore").textContent = "You : " + playerScore + "/25";
+    document.getElementById("enemyScore").textContent = "Enemy : " + enemyScore + "/25";
+</script>

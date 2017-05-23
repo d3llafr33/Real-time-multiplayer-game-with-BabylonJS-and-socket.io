@@ -1,0 +1,85 @@
+﻿html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(209, 209, 224, 0.5);
+}
+#score {
+    position:absolute;
+    width: 90%;
+    top: 15%;
+    left: 50%; 
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    clear:both;
+    font-size: 20px;
+    font-weight: bold;
+    z-index:200;
+    padding:0;
+}
+
+#playerScore {
+    margin:0;
+    padding:0;
+	float: left;
+}
+#enemyScore {
+    margin:0;
+    padding:0;
+	float: right;
+}
+
+#multiplayerCanvas{
+    width: 90%;
+    height: 60%;
+    left : 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: solid 5px black;
+}
+
+#gameOver {
+    width: 90%;
+    height:60%;
+    left : 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: solid 5px black;
+    text-align:center;
+    visibility:hidden;
+    z-index : 100;
+}
+
+button {
+    background-color: rgba(0, 0, 0,0);
+    font-size: 15px;
+    width:10%;
+    height:5%;
+    border-radius:5px;
+    border:solid 3px;
+    border-color: black;
+    z-index:200; 
+    position:absolute;
+    left: 50%;
+    margin-right: -50%;
+    top: 50%;          
+    transform: translate(-50%, -50%) ;
+    -ms-transform: translate(-50%, -50%) ; 
+    -webkit-transform: translate(-50%, -50%);
+}
+
+#gameResult {
+    font-size : 30px;
+    font-weight: bold;
+    position:absolute;
+    left: 50%;
+    margin-right: -50%;
+    top: 50%;          
+    transform: translate(-50%, -50%) ;
+    -ms-transform: translate(-50%, -50%) ; 
+    -webkit-transform: translate(-50%, -50%);
+}
